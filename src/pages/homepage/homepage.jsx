@@ -6,7 +6,7 @@ import {withRouter} from 'react-router-dom'
 const homepage = (props) => (
     <div className='homepage'>
         <DirectoryMenu />
-        <button onClick={ () => {props.history.push('/about')}}>ABOUT</button>
+        <button onClick={ () => {props.history.push('/shop')}}>ABOUT</button>
     </div>
 )
 
