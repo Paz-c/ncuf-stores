@@ -1,11 +1,13 @@
 import React from 'react'
 import DirectoryMenu from '../../components/directory-menu/directory-menu.component'
 import './homepage.styles.scss'
+import {withRouter} from 'react-router-dom'
 
-const homepage = () => (
+const homepage = (props) => (
     <div className='homepage'>
         <DirectoryMenu />
+        <button onClick={ () => {props.history.push('/about')}}>ABOUT</button>
     </div>
 )
 
-export default homepage
+export default withRouter(homepage);
