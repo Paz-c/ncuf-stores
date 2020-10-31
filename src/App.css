@@ -1,5 +1,10 @@
 body{
     font-family: 'Rajdhani', sans-serif;
-    font-size: large;
+    font-size: x-large;
     padding: 20px 80px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
